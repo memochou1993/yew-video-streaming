@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.consumer {
+    background-color: #0057B7;
+    color: white;
+    padding: 10px;
+}
+
+.producer {
+    background-color: #FFD700;
+    color: black;
+    padding: 10px;
+}
