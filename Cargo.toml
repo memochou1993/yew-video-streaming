@@ -9,5 +9,5 @@ edition = "2021"
 js-sys = "0.3.60"
 wasm-bindgen = "0.2.83"
 wasm-bindgen-futures = "0.4.33"
-web-sys = { version = "0.3.60", features = ["console", "EncodedVideoChunk", "HtmlVideoElement", "MediaDevices", "MediaStream", "MediaStreamConstraints", "MediaStreamTrack", "MediaStreamTrackProcessor", "MediaStreamTrackProcessorInit", "Navigator", "ReadableStream", "ReadableStreamGetReaderOptions", "ReadableStreamDefaultReader", "VideoEncoder", "VideoEncoderConfig", "VideoEncoderInit", "VideoFrame", "VideoTrack"] }
+web-sys = { version = "0.3.60", features = ["console", "CanvasRenderingContext2d", "EncodedVideoChunk", "EncodedVideoChunkInit", "EncodedVideoChunkType", "HtmlCanvasElement", "HtmlImageElement", "HtmlVideoElement", "MediaDevices", "MediaStream", "MediaStreamConstraints", "MediaStreamTrack", "MediaStreamTrackProcessor", "MediaStreamTrackProcessorInit", "MediaTrackSettings", "Navigator", "ReadableStream", "ReadableStreamGetReaderOptions", "ReadableStreamDefaultReader", "VideoDecoder", "VideoDecoderConfig", "VideoDecoderInit", "VideoEncoder", "VideoEncoderConfig", "VideoEncoderInit", "VideoFrame", "VideoTrack"] }
 yew = "0.19.3"
